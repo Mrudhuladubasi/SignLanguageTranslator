@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(236, 34%, 51%);
+    color: hwb(0 0% 100%);
+    text-align: center;
+}
+
+header {
+    background-color: #ede209;
+    color: hwb(172 9% 8%);
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Center align hero content */
+.hero {
+    text-align: center;
+    padding: 60px 0;
+}
+
+/* Center align features and testimonials */
+.features, .testimonials {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style the cta-button */
+.cta-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Add more CSS styling for specific elements and sections as per your design preferences */
