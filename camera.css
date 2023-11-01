@@ -11,10 +11,13 @@ h1 {
     padding: 20px;
 }
 
+.camera-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
 video {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    max-width: 640px;
     background-color: #000; /* Black background for video element */
 }
