@@ -1,0 +1,20 @@
+body {
+    background-color: #FFDAB9; /* Light Peach background color */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 640px;
+    background-color: #000; /* Black background for video element */
+}
