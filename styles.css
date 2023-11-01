@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    text-align: center;
+    text-align: left;
     padding: 20px;
     margin: 0 auto;
     max-width: 400px;
@@ -20,7 +20,7 @@ body {
 }
 
 .title {
-    font-size: 48px; /* Increased title font size */
+    font-size: 88px; /* Increased title font size */
     margin: 0;
     text-align: left; /* Align title to the left */
 }
